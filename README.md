@@ -6,6 +6,8 @@
 
 The `object-fit` property defines how an element responds to the height and width of its content box. It’s intended for images, videos and other embeddable media formats.
 
+It includes a simple window resize watcher.
+
 To start using `object-fit` in Internet Explorer 8 - 11, add an `object-fit` property to your CSS file.
 
 ```css
@@ -19,6 +21,8 @@ Then, somewhere in the document, include a link to [fitie].
 ```html
 <script src="fitie.js"></script>
 ```
+
+`window.fitie.test()` - You can progamatically run this to start re-evalutating page elements. For example, if the DOM updates.
 
 That’s it. Enjoy!
 
